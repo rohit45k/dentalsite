@@ -15,7 +15,7 @@ def contact(request):
             'For Appointment From ' + message_name,
             message,
             message_email,  #user email id
-            ['rohitkashyap1414@gmail.com'], #dental store email id
+            ['dentalemail@gmail.com'], #dental store email id
         )
 
         return render(request, 'contact.html', {'message_name' : message_name})
